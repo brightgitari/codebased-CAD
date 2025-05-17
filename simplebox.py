@@ -1,4 +1,4 @@
-"""import sys
+import sys
 sys.path.append('C:/Program Files/FreeCAD 1.0/bin')  
 
 import FreeCAD as App
@@ -21,7 +21,7 @@ box_obj.Shape = my_box
 doc.recompute()
 Gui.SendMsgToActiveView("View Fit")
 num_i
-"""
+
 for i in range (5):
     size = 50 - (i * 8)
     height = i * 10
